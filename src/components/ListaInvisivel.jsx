@@ -3,8 +3,8 @@ export default function ListaInvisivel() {
 
   return (
     <ul>
-      {compras.map((item) => (
-        <li key={item}>{item}</li>
+      {compras.map((item, index) => (
+        <li key={index}>{item}</li>
       ))}
     </ul>
   );
